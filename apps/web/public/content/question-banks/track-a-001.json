@@ -1,0 +1,33 @@
+{
+  "lesson_id": "track-a-001",
+  "version": "1.0.0",
+  "pass_percent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What is the primary goal of this MVP?",
+      "points": 2,
+      "options": [
+        "Only mint NFTs",
+        "Teach X1 concepts interactively",
+        "Run a validator node"
+      ],
+      "answer": "Teach X1 concepts interactively"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "This starter includes quiz and result pages.",
+      "points": 1,
+      "answer": true
+    },
+    {
+      "id": "q3",
+      "type": "short",
+      "prompt": "Type the ecosystem name being taught in this academy.",
+      "points": 2,
+      "answer": "x1"
+    }
+  ]
+}
