@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "badges": [
+    {
+      "badge_id": "badge-first-step",
+      "name": "First Step",
+      "description": "Complete your first lesson in Track A.",
+      "icon": "🌱",
+      "requirements": {
+        "type": "complete_lessons",
+        "lesson_ids": ["track-a-001"]
+      }
+    },
+    {
+      "badge_id": "badge-quiz-pro",
+      "name": "Quiz Pro",
+      "description": "Score at least 90% on a lesson quiz.",
+      "icon": "🏆",
+      "requirements": {
+        "type": "score_threshold",
+        "min_score_percent": 90
+      }
+    }
+  ]
+}
