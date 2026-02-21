@@ -1,0 +1,14 @@
+[
+  {
+    "lesson_id": "track-a-001",
+    "track": "Track A",
+    "title": "What is X1?",
+    "slug": "what-is-x1",
+    "difficulty": "beginner",
+    "estimated_minutes": 8,
+    "prerequisites": [],
+    "badge_unlocks": ["badge-first-step"],
+    "content_file": "lessons/what-is-x1.md",
+    "question_bank_file": "question-banks/track-a-001.json"
+  }
+]
