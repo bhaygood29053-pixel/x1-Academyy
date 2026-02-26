@@ -9,6 +9,9 @@
     "prerequisites": [],
     "badge_unlocks": ["badge-first-step"],
     "content_file": "lessons/what-is-x1.md",
-    "question_bank_file": "question-banks/track-a-001.json"
+    "question_bank_file": "question-banks/track-a-001.json",
+    "video_sources": {
+      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
   }
 ]
