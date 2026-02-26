@@ -14,6 +14,37 @@ export default async function LessonPage({ params }: { params: { slug: string } 
         {lesson.track} • {lesson.difficulty} • ~{lesson.estimated_minutes} min
       </div>
 
+      {lesson.video_sources?.youtube ? (
+        <div
+          style={{
+            padding: 14,
+            borderRadius: 14,
+            border: "1px solid rgba(255,255,255,0.14)",
+            display: "flex",
+            gap: 10,
+            flexWrap: "wrap",
+            alignItems: "center"
+          }}
+        >
+          <div style={{ fontWeight: 700 }}>Connect Video:</div>
+          <a
+            href={lesson.video_sources.youtube}
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              padding: "8px 12px",
+              borderRadius: 10,
+              textDecoration: "none",
+              background: "#ff0000",
+              color: "#fff",
+              fontWeight: 800
+            }}
+          >
+            YouTube
+          </a>
+        </div>
+      ) : null}
+
       <article
         style={{
           padding: 14,

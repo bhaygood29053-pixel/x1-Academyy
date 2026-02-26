@@ -11,6 +11,9 @@ export type LessonIndexItem = {
   badge_unlocks: string[];
   content_file: string;
   question_bank_file: string;
+  video_sources?: {
+    youtube?: string;
+  };
   checkpoints?: Array<{
     id: string;
     type: "mcq" | "short" | "match" | "order";
